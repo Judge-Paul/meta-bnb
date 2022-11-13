@@ -1,0 +1,41 @@
+nav > ul > li > a {
+    color: black;
+    font-size: 16.2px;
+    font-weight: 500;
+}
+
+nav > ul > li > a:hover {
+    color: rgb(154, 153, 153)
+}
+
+nav > form > button {
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    color: white !important;
+    padding: 10px 25px !important;
+    border-radius: 8px !important;
+}
+
+.main--row-one {
+    font-size: 56px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.02em;
+}
+
+.main--row-one > p > span {
+    color: #A02279;
+    font-weight: 500;
+}
+
+.main--row-two {
+    font-size: 24px;
+}
+
+.main--row-three > input {
+    padding: 25px;
+}
+
+.main--row-three > button {
+    padding: 0 100px;
+    background-color: black !important;
+}
