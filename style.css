@@ -1,3 +1,7 @@
+#root {
+    font-family: "Red Rose"
+}
+
 nav > ul > li > a {
     color: black;
     font-size: 16.2px;
@@ -15,18 +19,40 @@ nav > form > button {
     border-radius: 8px !important;
 }
 
-.main--row-one {
-    font-size: 56px;
+.main--col-one > h2 {
+    font-size: 55px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: -0.02em;
 }
 
-.main--row-one > p > span {
+.main--col-one > h2 > strong {
+    color: #A02279;
+}
+.main--col-one > p {
+    font-size: 24px;
+    font-weight: 400;
+}
+@media screen and (max-width: 960px) {
+    .invis-col {
+        display: none;
+        
+    }
+}
+/* .main--row-one > h2 > span {
     color: #A02279;
     font-weight: 500;
 }
 
+@media screen and (min-width: 1200px) {
+    .main--row-one {
+        max-width: 646px;
+        font-size: 56px;
+        border: 1px solid green;
+    }
+
+} */
+
+/* 
 .main--row-two {
     font-size: 24px;
 }
@@ -38,4 +64,4 @@ nav > form > button {
 .main--row-three > button {
     padding: 0 100px;
     background-color: black !important;
-}
+} */

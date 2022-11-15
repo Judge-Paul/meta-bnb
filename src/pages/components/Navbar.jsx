@@ -35,16 +35,25 @@ export default function Navbar() {
                     <button type="button" className="btn" onClick={handleShow}>Connect Wallet</button>
 
                     <Modal show={show} onHide={handleClose}>
-                        <Modal.Header closeButton>
-                        <Modal.Title>Connect Wallet</Modal.Title>
+                        <Modal.Header>
+                        <Modal.Title>
+                            <div className="row">
+                                <div className="col-md-10">  
+                                    Connect Wallet
+                                </div>
+                                <div className="col-md-2">
+                                    <span><button type="button" className="align-top" onClick={handleClose}>&times;</button></span>  
+                                </div>
+                            </div>
+                        </Modal.Title>
                         </Modal.Header>
                         <Modal.Body className="pb-4">
                             <p>Choose your preferred wallet:</p>
                             <Card className="mb-2">
                                 <Card.Body className="pb-3">
-                                    <img src={MMIcon} alt="Metamask" className="pr-3" />
+                                    <a href="">`<img src={MMIcon} alt="Metamask" className="pr-3" /></a>
                                     <b className="">Metamask</b>
-                                    <span><FaChevronRight className="" /></span>
+                                    <span><FaChevronRight className="align-bottom" /></span>
                                 </Card.Body>
                             </Card>
                             <Card className="mt-3">
