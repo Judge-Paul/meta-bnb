@@ -28,40 +28,29 @@ nav > form > button {
 .main--col-one > h2 > strong {
     color: #A02279;
 }
+
 .main--col-one > p {
     font-size: 24px;
     font-weight: 400;
 }
+
 @media screen and (max-width: 960px) {
     .invis-col {
         display: none;
         
     }
 }
-/* .main--row-one > h2 > span {
-    color: #A02279;
-    font-weight: 500;
+
+.main--footer {
+    background-color: #A02279;
+    width: 100%;
+    text-align: center;
+    min-height: 70px;
+    height: auto;
+    align-items: center;
+    position: relative;
 }
 
-@media screen and (min-width: 1200px) {
-    .main--row-one {
-        max-width: 646px;
-        font-size: 56px;
-        border: 1px solid green;
-    }
-
-} */
-
-/* 
-.main--row-two {
-    font-size: 24px;
+.main--footer img {
+    padding: 5% 0 !important;
 }
-
-.main--row-three > input {
-    padding: 25px;
-}
-
-.main--row-three > button {
-    padding: 0 100px;
-    background-color: black !important;
-} */
