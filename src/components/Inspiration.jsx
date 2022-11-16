@@ -12,10 +12,6 @@ export default function Inspiration() {
         "img6.png",
         "img7.png",
         "img8.png",
-        "img9.png",
-        "img10.png",
-        "img11.png",
-        "img12.png"
     ]
     
     return (

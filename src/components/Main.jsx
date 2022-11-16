@@ -14,12 +14,12 @@ export default function Main() {
                         <h2 className="pb-4 pt-4">Rent a <strong>Place</strong> away from <strong>Home</strong> in the <strong>Metaverse</strong></h2>
                         <p>We provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
                         <div className="input-group input-group-lg">
-                            <input type="text" class="form-control" placeholder="Search" />
-                            <div class="input-group-append">
+                            <input type="text" className="form-control" placeholder="Search" />
+                            <div className="input-group-append">
                                 <a href="#" className="btn px-5 pl-5 pr-5">Search</a>
                             </div>
                         </div>
-                        <div class="input-group mb-3">
+                        <div className="input-group mb-3">
                         </div>
                     </div>
                     <div className="col-xl-1 invis-col">

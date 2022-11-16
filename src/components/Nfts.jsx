@@ -16,7 +16,7 @@ export default function Nfts() {
                         </p>
                         <button type="button" className="btn btn-light btn-lg px-5 pt-3 pb-3">Learn More</button>
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 pt-5">
                         <img src={BG} alt="NFTs Background" />
                     </div>
                 </div>

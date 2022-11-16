@@ -6,18 +6,20 @@ nav > ul > li > a {
     color: black;
     font-size: 16.2px;
     font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav > ul > li > a:hover {
     color: rgb(154, 153, 153);
 }
 
-nav > form > button {
+#navbar-btn {
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     color: white !important;
     padding: 10px 25px !important;
     border-radius: 8px !important;
 }
+
 .modal a {color: inherit}
 
 .modal a:hover{
@@ -113,4 +115,20 @@ nav > form > button {
 
 #nfts img {
     width: 100%;
+}
+
+footer {
+    background-color: #1D1D1E;
+    color: white;
+}
+
+footer img {
+    display: block;
+}
+
+footer a, h5 {
+    color: inherit;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 2px;
 }
