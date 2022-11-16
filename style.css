@@ -1,5 +1,5 @@
 #root {
-    font-family: "Red Rose"
+    font-family: "Red Rose";
 }
 
 nav > ul > li > a {
@@ -9,7 +9,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-    color: rgb(154, 153, 153)
+    color: rgb(154, 153, 153);
 }
 
 nav > form > button {
@@ -17,6 +17,24 @@ nav > form > button {
     color: white !important;
     padding: 10px 25px !important;
     border-radius: 8px !important;
+}
+.modal a {color: inherit}
+
+.modal a:hover{
+    text-decoration: none;
+    background-color: rgb(231, 231, 231);
+    color: inherit;
+}
+@media screen and (min-width:450px) {
+    .modal-close {
+        border: 0;
+        background-color: inherit;
+        width: 270px;
+        padding-left: 260px;
+    }
+    .modal-close:active,:hover{
+        border: 0;
+    }
 }
 
 .main--col-one > h2 {
@@ -53,4 +71,18 @@ nav > form > button {
 
 .main--footer img {
     padding: 5% 0 !important;
+}
+
+.card-container {
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-container img {
+    max-width: 100%;
+}
+
+.card-container span {
+    font-size: small;
 }
