@@ -24,7 +24,7 @@ export default function Navbar() {
                     <a className="nav-link" href="#">Place to stay</a>
                     </li>
                     <li className="nav-item pr-3 pl-2">
-                    <a className="nav-link" href="#">NFTs</a>
+                    <a className="nav-link" href="#nfts">NFTs</a>
                     </li>
                     <li className="nav-item pl-2">
                     <a className="nav-link" href="#">Community</a>

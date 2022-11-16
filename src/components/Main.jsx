@@ -10,20 +10,22 @@ export default function Main() {
         <div>
             <div className="container pt-5">
                 <div className="row">
-                    <div className="col-lg-6 outline main--col-one">
+                    <div className="col-xl-6 col-lg-7 outline main--col-one">
                         <h2 className="pb-4 pt-4">Rent a <strong>Place</strong> away from <strong>Home</strong> in the <strong>Metaverse</strong></h2>
                         <p>We provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
-                        {/* <div className="input-group pt-4">
-                            <input type="text" className="form-control" placeholder="Search for location" />
-                            <div className="input-group-append">
-                                <button className="btn btn-success pl-5 pr-5" type="submit">Search</button>
+                        <div className="input-group input-group-lg">
+                            <input type="text" class="form-control" placeholder="Search" />
+                            <div class="input-group-append">
+                                <a href="#" className="btn px-5 pl-5 pr-5">Search</a>
                             </div>
-                        </div> */}
+                        </div>
+                        <div class="input-group mb-3">
+                        </div>
                     </div>
-                    <div className="col-lg-1 invis-col">
+                    <div className="col-xl-1 invis-col">
 
                     </div>
-                    <div className="col-lg-5 outline">
+                    <div className="col-xl-5 col-lg-5 outline">
                         <img src={BG} alt="Background Image 1" width="100%" />
                     </div>
                 </div>

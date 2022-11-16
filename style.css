@@ -25,6 +25,7 @@ nav > form > button {
     background-color: rgb(231, 231, 231);
     color: inherit;
 }
+
 @media screen and (min-width:450px) {
     .modal-close {
         border: 0;
@@ -52,10 +53,13 @@ nav > form > button {
     font-weight: 400;
 }
 
-@media screen and (max-width: 960px) {
+.input-group a {
+    background-color: #A02279;
+}
+
+@media screen and (max-width: 1200px) {
     .invis-col {
         display: none;
-        
     }
 }
 
@@ -85,4 +89,28 @@ nav > form > button {
 
 .card-container span {
     font-size: small;
+}
+
+#nfts {
+    height: 100%;
+    width: 100%;
+    background-color: #A02279;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nfts button{
+    color: #A02279;
+}
+
+#nfts p {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+#nfts img {
+    width: 100%;
 }
