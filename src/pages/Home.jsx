@@ -6,8 +6,8 @@ import Inspiration from "../components/Inspiration"
 export default function Home() {
     return (
         <div>
-            {/* <Navbar />
-            <Main /> */}
+            <Navbar />
+            <Main />
             <Inspiration />
         </div>
     )

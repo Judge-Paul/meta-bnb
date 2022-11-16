@@ -20,21 +20,19 @@ export default function Inspiration() {
     
     return (
         <div>
-            <h2 className="text-center display-4 pt-5" style={{ fontWeight: 500 }}>
+            <h2 className="text-center display-4 pt-5 mt-3" style={{ fontWeight: 500 }}>
                 Inspiration for your next adventure
             </h2>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-md-6 pb-4"><Card img={Images[1]} /></div>
-                    <div className="col-lg-3 col-md-6 pb-4"><Card img={Images[2]} /></div>
-                    <div className="col-lg-3 col-md-6 pb-4"><Card img={Images[3]} /></div>
-                    <div className="col-lg-3 col-md-6 pb-4"><Card img={Images[4]} /></div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-3 col-md-6 pb-4"><Card img={Images[5]} /></div>
-                    <div className="col-lg-3 col-md-6 pb-4"><Card img={Images[6]} /></div>
-                    <div className="col-lg-3 col-md-6 pb-4"><Card img={Images[7]} /></div>
-                    <div className="col-lg-3 col-md-6 pb-4"><Card img={Images[8]} /></div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 pb-4"><Card img={Images[1]} /></div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 pb-4"><Card img={Images[2]} /></div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 pb-4"><Card img={Images[3]} /></div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 pb-4"><Card img={Images[4]} /></div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 pb-4"><Card img={Images[5]} /></div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 pb-4"><Card img={Images[6]} /></div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 pb-4"><Card img={Images[7]} /></div>
+                    <div className="col-xl-3 col-lg-4 col-md-6 pb-4"><Card img={Images[8]} /></div>
                 </div>
             </div>
         </div>

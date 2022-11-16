@@ -79,8 +79,8 @@ nav > form > button {
     text-align: center;
 }
 
-.card-container img {
-    max-width: 100%;
+.card-container > .card-el > img {
+    width: 100%;
 }
 
 .card-container span {
