@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "../assets/bootstrap/css/bootstrap.css"
 import Logo from "../assets/images/logo.png"
-import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap"
+import { Navbar, Nav, Form, Button } from "react-bootstrap"
 import Modal from "react-bootstrap/Modal"
 import Card from "react-bootstrap/Card"
 import MMIcon from "../assets/images/metamask.png"
